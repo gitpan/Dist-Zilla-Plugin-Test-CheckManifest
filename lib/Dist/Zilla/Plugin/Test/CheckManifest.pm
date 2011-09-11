@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Test::CheckManifest;
 {
-  $Dist::Zilla::Plugin::Test::CheckManifest::VERSION = '0.01';
+  $Dist::Zilla::Plugin::Test::CheckManifest::VERSION = '0.02';
 }
 
 use Moose;
@@ -12,11 +12,11 @@ extends 'Dist::Zilla::Plugin::InlineFiles';
 
 =head1 NAME
 
-Dist::Zilla::Plugin::Test::CheckManifest - Release tests for the MANIFEST
+Dist::Zilla::Plugin::Test::CheckManifest - Release test for the MANIFEST
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -76,7 +76,7 @@ BEGIN {
 use Test::More;
 
 eval "use Test::CheckManifest 1.24";
-plan skip_all => "Test::CheckManifest 1.24 required for testing POD coverage"
+plan skip_all => "Test::CheckManifest 1.24 required for testing MANIFEST"
   if $@;
 
 ok_manifest();

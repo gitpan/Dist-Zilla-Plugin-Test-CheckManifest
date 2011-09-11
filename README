@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Dist-Zilla-Plugin-Test-CheckManifest,
-version 0.01:
+version 0.02:
 
-  Release tests for the MANIFEST
+  Release test for the MANIFEST
 
 This software is copyright (c) 2011 by Alessandro Ghedini.
 
