@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Test::CheckManifest;
 {
-  $Dist::Zilla::Plugin::Test::CheckManifest::VERSION = '0.02';
+  $Dist::Zilla::Plugin::Test::CheckManifest::VERSION = '0.03';
 }
 
 use Moose;
@@ -16,7 +16,7 @@ Dist::Zilla::Plugin::Test::CheckManifest - Release test for the MANIFEST
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
