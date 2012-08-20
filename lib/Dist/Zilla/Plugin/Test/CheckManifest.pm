@@ -1,12 +1,12 @@
 package Dist::Zilla::Plugin::Test::CheckManifest;
 {
-  $Dist::Zilla::Plugin::Test::CheckManifest::VERSION = '0.03';
+  $Dist::Zilla::Plugin::Test::CheckManifest::VERSION = '0.04';
 }
 
-use Moose;
-
-use warnings;
 use strict;
+use warnings;
+
+use Moose;
 
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
@@ -16,7 +16,7 @@ Dist::Zilla::Plugin::Test::CheckManifest - Release test for the MANIFEST
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
